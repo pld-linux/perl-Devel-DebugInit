@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Devel-DebugInit
 Name:		perl-Devel-DebugInit
 Version:	0.3
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Devel/Devel-DebugInit-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Devel/Devel-DebugInit-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-C-Scan
