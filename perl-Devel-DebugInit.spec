@@ -1,11 +1,10 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	DebugInit
-Summary:	Devel::DebugInit perl module
-Summary(pl):	Modu³ perla Devel::DebugInit
+Summary:	Creating a debugger initialization files from C header file macros
 Name:		perl-Devel-DebugInit
 Version:	0.3
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -16,10 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel::DebugInit perl module.
-
-%description -l pl
-Modu³ perla Devel::DebugInit.
+Devel::DebugInit is aimed at C/C++ developers who want access to C macro
+definitions from within a debugger. It provides a simple and automated
+way of creating debugger initialization files for a specific project. The
+initialization files created contain user-defined functions built from
+the macro definitions in the project's header files.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
