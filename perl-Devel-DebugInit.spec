@@ -4,8 +4,8 @@
 			# fail on too deep recursion
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Devel
-%define	pnam	DebugInit
+%define		pdir	Devel
+%define		pnam	DebugInit
 Summary:	Creating a debugger initialization files from C header file macros
 Summary(pl):	Tworzenie plików inicjalizacyjnych odpluskwiacza z makr nag³ówków C
 Name:		perl-Devel-DebugInit
