@@ -35,7 +35,7 @@ definicji makr w plikach nag³ówkowych projektu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
