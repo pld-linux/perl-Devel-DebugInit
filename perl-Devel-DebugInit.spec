@@ -37,7 +37,7 @@ definicji makr w plikach nag³ówkowych projektu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
