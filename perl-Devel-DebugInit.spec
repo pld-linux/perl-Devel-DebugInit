@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_with	tests	# do not perform "make test"
+%bcond_with	tests	# perform "make test"
 			# fail on too deep recursion
 #
 %include	/usr/lib/rpm/macros.perl
