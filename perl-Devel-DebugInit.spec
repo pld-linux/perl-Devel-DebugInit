@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	DebugInit
-Summary:	Devel-DebugInit perl module
-Summary(pl):	Modu³ perla Devel-DebugInit
+Summary:	Devel::DebugInit perl module
+Summary(pl):	Modu³ perla Devel::DebugInit
 Name:		perl-Devel-DebugInit
 Version:	0.3
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Devel-DebugInit perl module.
+Devel::DebugInit perl module.
 
 %description -l pl
-Modu³ perla Devel-DebugInit.
+Modu³ perla Devel::DebugInit.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
