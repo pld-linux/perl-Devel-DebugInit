@@ -10,7 +10,7 @@ Summary:	Creating a debugger initialization files from C header file macros
 Summary(pl):	Tworzenie plików inicjalizacyjnych odpluskwiacza z makr nag³ówków C
 Name:		perl-Devel-DebugInit
 Version:	0.3
-Release:	11
+Release:	12
 # same as perl
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
