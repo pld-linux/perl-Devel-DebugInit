@@ -5,13 +5,13 @@ Summary:	Creating a debugger initialization files from C header file macros
 Summary(pl):	Tworzenie plików inicjalizacyjnych odpluskwiacza z makr nag³ówków C
 Name:		perl-Devel-DebugInit
 Version:	0.3
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-C-Scan
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -35,7 +35,8 @@ definicji makr w plikach nag³ówkowych projektu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -49,6 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO
-%{perl_sitelib}/Devel/DebugInit.pm
-%{perl_sitelib}/Devel/DebugInit
+%{perl_vendorlib}/Devel/DebugInit.pm
+%{perl_vendorlib}/Devel/DebugInit
 %{_mandir}/man3/*
