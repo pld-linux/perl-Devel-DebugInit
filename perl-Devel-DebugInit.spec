@@ -1,3 +1,8 @@
+#
+# Conditional build:
+%bcond_with	tests	# do not perform "make test"
+			# fail on too deep recursion
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	DebugInit
@@ -44,7 +49,10 @@ definicji makr w plikach nag³ówkowych projektu.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
+
+%{?with_tests:%{__make} test}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
