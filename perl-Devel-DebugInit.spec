@@ -3,7 +3,7 @@ Summary:	Devel-DebugInit perl module
 Summary(pl):	Modu³ perla Devel-DebugInit
 Name:		perl-Devel-DebugInit
 Version:	0.3
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
