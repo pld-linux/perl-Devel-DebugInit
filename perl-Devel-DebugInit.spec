@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Devel
 %define	pnam	DebugInit
-%include	/usr/lib/rpm/macros.perl
 Summary:	Devel-DebugInit perl module
 Summary(pl):	Modu³ perla Devel-DebugInit
 Name:		perl-Devel-DebugInit
 Version:	0.3
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Devel-DebugInit perl module.
 Modu³ perla Devel-DebugInit.
 
 %prep
-%setup -q -n Devel-DebugInit-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
