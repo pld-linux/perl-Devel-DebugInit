@@ -6,7 +6,8 @@ Summary(pl):	Tworzenie plików inicjalizacyjnych odpluskwiacza z makr nag³ówków C
 Name:		perl-Devel-DebugInit
 Version:	0.3
 Release:	11
-License:	GPL
+# same as perl
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2a40f42bf194e4ef5250d6dd59fa00ed
