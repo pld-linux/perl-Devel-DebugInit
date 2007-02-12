@@ -7,7 +7,7 @@
 %define		pdir	Devel
 %define		pnam	DebugInit
 Summary:	Creating a debugger initialization files from C header file macros
-Summary(pl):	Tworzenie plików inicjalizacyjnych odpluskwiacza z makr nag³ówków C
+Summary(pl.UTF-8):   Tworzenie plikÃ³w inicjalizacyjnych odpluskwiacza z makr nagÅ‚Ã³wkÃ³w C
 Name:		perl-Devel-DebugInit
 Version:	0.3
 Release:	12
@@ -30,13 +30,13 @@ project. The initialization files created contain user-defined
 functions built from the macro definitions in the project's header
 files.
 
-%description -l pl
-Modu³ Devel::DebugInit ma s³u¿yæ programistom C/C++, którzy chc±
-dostaæ siê do definicji makr C z poziomu odpluskwiacza. Modu³
-udostêpnia prosty i zautomatyzowany sposób tworzenia plików
+%description -l pl.UTF-8
+ModuÅ‚ Devel::DebugInit ma sÅ‚uÅ¼yÄ‡ programistom C/C++, ktÃ³rzy chcÄ…
+dostaÄ‡ siÄ™ do definicji makr C z poziomu odpluskwiacza. ModuÅ‚
+udostÄ™pnia prosty i zautomatyzowany sposÃ³b tworzenia plikÃ³w
 inicjalizacyjnych odpluskwiacza dla danego projektu. Tworzone pliki
-inicjalizacyjne zawieraj± podane przez u¿ytkownika funkcje zbudowane z
-definicji makr w plikach nag³ówkowych projektu.
+inicjalizacyjne zawierajÄ… podane przez uÅ¼ytkownika funkcje zbudowane z
+definicji makr w plikach nagÅ‚Ã³wkowych projektu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
