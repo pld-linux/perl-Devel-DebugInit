@@ -7,7 +7,7 @@
 %define		pdir	Devel
 %define		pnam	DebugInit
 Summary:	Creating a debugger initialization files from C header file macros
-Summary(pl.UTF-8):   Tworzenie plików inicjalizacyjnych odpluskwiacza z makr nagłówków C
+Summary(pl.UTF-8):	Tworzenie plików inicjalizacyjnych odpluskwiacza z makr nagłówków C
 Name:		perl-Devel-DebugInit
 Version:	0.3
 Release:	12
