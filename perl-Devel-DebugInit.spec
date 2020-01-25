@@ -5,7 +5,6 @@
 
 %define		pdir	Devel
 %define		pnam	DebugInit
-%include	/usr/lib/rpm/macros.perl
 Summary:	Creating a debugger initialization files from C header file macros
 Summary(pl.UTF-8):	Tworzenie plików inicjalizacyjnych odpluskwiacza z makr nagłówków C
 Name:		perl-Devel-DebugInit
